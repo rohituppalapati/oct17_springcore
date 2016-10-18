@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beansProjectDescription>
 	<version>1</version>
+<<<<<<< HEAD
 	<pluginVersion><![CDATA[3.2.0.201303060654-RELEASE]]></pluginVersion>
+=======
+	<pluginVersion><![CDATA[3.7.1.201510041102-RELEASE]]></pluginVersion>
+>>>>>>> f1a99d3ab90e65b8ecfe2d1df994800635d23e5c
 	<configSuffixes>
 		<configSuffix><![CDATA[xml]]></configSuffix>
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
 	</configs>
+<<<<<<< HEAD
+=======
+	<autoconfigs>
+	</autoconfigs>
+>>>>>>> f1a99d3ab90e65b8ecfe2d1df994800635d23e5c
 	<configSets>
 	</configSets>
 </beansProjectDescription>

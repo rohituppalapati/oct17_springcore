@@ -3,6 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+<<<<<<< HEAD
      
  <!--  <bean id="javabooks" class="books.JavaBooks"    />  -->
  
@@ -14,6 +15,13 @@
   
   <bean id="cdiCatalog" class="books.CDICatalog" autowire="constructor">
          <!--  <constructor-arg name="books"  ref="oraclebooks"></constructor-arg> -->
+=======
+    
+  <bean id="javabooks" class="books.JavaBooks" /> 
+  <bean id="oraclebooks" class="books.OracleBooks"  /> 
+  <bean id="catalog" class="books.Catalog">
+         <property name="books" ref="javabooks"></property>
+>>>>>>> f1a99d3ab90e65b8ecfe2d1df994800635d23e5c
   </bean>
   
 
